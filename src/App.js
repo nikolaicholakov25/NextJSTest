@@ -1,9 +1,9 @@
+import {HeroSection} from './sections/HeroSection/index'
+
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+      <HeroSection />
   );
 }
 
