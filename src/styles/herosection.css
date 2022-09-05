@@ -1,7 +1,14 @@
+.heroWrapper {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
 .heading {
     display: block;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 .heading h1 {
     font-weight: bold;
@@ -9,4 +16,55 @@
 }
 .heading h4 {
     font-weight: 500;
+}
+
+.centerWrapper {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    margin-top: 3em;
+    gap: 3em;
+}
+
+.img {
+    max-width: 300px;
+}
+
+.rightSection {
+    width: 600px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgBox{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+.textBox{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: rgba(182, 180, 180, 0.13);
+    border-radius: 1em;
+}
+
+.textArea{
+    text-align: left;
+    width: 70%;
+}
+.textArea h2 {
+    margin-bottom: 0.4rem;
+}
+.textArea span {
+    font-weight: bold;
+}
+
+#box1{
+    width: 90%;
+}
+#box2 {
+    width: 95%;
 }
