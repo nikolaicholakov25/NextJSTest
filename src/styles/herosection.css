@@ -24,14 +24,17 @@
     justify-content: space-between;
     margin-top: 3em;
     gap: 3em;
+    max-width: 850px;
 }
 
 .img {
     max-width: 300px;
+    max-height: 650px;
 }
 
 .rightSection {
     width: 600px;
+    padding: 1em 0;
     /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
@@ -41,13 +44,13 @@
 .imgBox{
     width: 100px;
     height: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .textBox{
     display: flex;
-    gap: 2rem;
-    padding: 1rem;
-    background-color: rgba(182, 180, 180, 0.13);
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background-color: rgba(182, 180, 180, 0.266);
     border-radius: 1em;
 }
 
@@ -56,7 +59,7 @@
     width: 70%;
 }
 .textArea h2 {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.2rem;
 }
 .textArea span {
     font-weight: bold;
@@ -67,4 +70,12 @@
 }
 #box2 {
     width: 95%;
+}
+.imgBox i {
+    font-size: 2.5rem;
+}
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
