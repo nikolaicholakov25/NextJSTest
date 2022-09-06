@@ -1,0 +1,11 @@
+@media(max-width:1024px) {
+    .heroWrapper{
+        height: auto;
+    }
+    .centerWrapper {
+        flex-direction: column;
+    }
+    .img {
+        margin: auto;
+    }
+}

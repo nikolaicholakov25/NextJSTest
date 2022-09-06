@@ -1,0 +1,10 @@
+@media (max-width: 1024px) {
+    *{
+        /* outline: green solid; */
+    }
+    .rightSection{
+        max-width: 80vw;
+        margin: auto;
+        gap: 1.5em;
+    }
+}

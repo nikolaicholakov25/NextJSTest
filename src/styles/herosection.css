@@ -32,6 +32,12 @@
     max-height: 650px;
 }
 
+.imgBox{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+
 .rightSection {
     width: 600px;
     padding: 1em 0;
@@ -39,43 +45,4 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.imgBox{
-    width: 100px;
-    height: 100px;
-    /* border: 1px solid red; */
-}
-.textBox{
-    display: flex;
-    gap: 1rem;
-    padding: 1rem 1.5rem;
-    background-color: rgba(182, 180, 180, 0.266);
-    border-radius: 1em;
-}
-
-.textArea{
-    text-align: left;
-    width: 70%;
-}
-.textArea h2 {
-    margin-bottom: 0.2rem;
-}
-.textArea span {
-    font-weight: bold;
-}
-
-#box1{
-    width: 90%;
-}
-#box2 {
-    width: 95%;
-}
-.imgBox i {
-    font-size: 2.5rem;
-}
-.imgBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

@@ -1,4 +1,4 @@
-import { TextBox } from "../../components/textBox/TextBox"
+import { TextBox } from "../../components/textBox/index"
 
 export const RightHandSection = () => {
 
