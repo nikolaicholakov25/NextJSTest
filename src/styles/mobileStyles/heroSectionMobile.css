@@ -1,6 +1,7 @@
 @media(max-width:1024px) {
     .heroWrapper{
         height: auto;
+        gap: 2em;
     }
     .centerWrapper {
         flex-direction: column;

@@ -5,6 +5,10 @@
     background-color: rgba(182, 180, 180, 0.266);
     border-radius: 1em;
 }
+.textBox:hover{
+    cursor: pointer;
+    border: 3px solid rgb(60, 60, 255);
+}
 
 .textArea{
     text-align: left;
@@ -12,6 +16,10 @@
 }
 .textArea h2 {
     margin-bottom: 0.2rem;
+}
+.textArea h2 a{
+    text-decoration: none;
+    color: black;
 }
 .textArea span {
     font-weight: bold;
@@ -30,4 +38,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#title:hover{
+    text-decoration: underline;
+    color: rgb(60, 60, 255);
 }
