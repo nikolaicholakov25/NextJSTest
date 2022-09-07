@@ -1,7 +1,5 @@
-import pic from '../../resources/video.png'
+import { ImgBox } from "./elements"
 
 export const ImgComponent = () => {
-    return <div className="img">
-        <img src={pic} alt="" />
-    </div>
+    return <ImgBox />
 }

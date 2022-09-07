@@ -1,12 +1,25 @@
-export const TextBox = ({title,text,id,icon}) => {
-    console.log(icon);
+import { 
+    FlexTextBox, 
+    ImgBox, 
+    FontAwesomeIcon,
+    TextArea,
+    Paragraph,
+    H2Link,
+    BlackA
+ } from "./elements";
+
+export const TextBox = ({title,text,id,icon,width}) => {
     return (
-        <div className="textBox" id={id}>
-            <div className="imgBox"><i className={icon}></i></div>
-            <div className="textArea">
-                <h2><a id="title" href="/">{title}</a></h2>
-                <p>{text}</p>
-            </div>
-        </div>
+            <FlexTextBox id={id} width={width}>
+                <ImgBox>
+                    <FontAwesomeIcon className={icon} />
+                </ImgBox>
+                <TextArea>
+                    <H2Link>
+                        <BlackA href="/">{title}</BlackA>
+                    </H2Link>
+                    <Paragraph>{text}</Paragraph>
+                </TextArea>
+            </FlexTextBox>
     )
 }
